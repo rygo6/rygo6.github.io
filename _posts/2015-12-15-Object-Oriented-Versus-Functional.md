@@ -4,10 +4,7 @@ layout: default
 
 # Object Oriented Versus Functional
 
-A few years ago the phrase arrived to my awareness,
-"Object-Oriented Programming is dead in favor of Functional Programming".
-
-Someone had stated this to me based on various other sources of information they had inferred things from, other people repeated it, it continued on. A quick google search "Object-Oriented Programming is Dead" will reveal that this topic has quite a bit of discussion.
+A few years ago the phrase first arrived to my awareness, "Object-Oriented Programming is dead in favor of Functional Programming". Over the years I have encountered a multitude of programmers making statements that aim in a similiar direction of thought. A quick google search "Object-Oriented Programming is Dead" will reveal that this topic has quite a bit of discussion.
 
 People make very rational arguments like, "Paradigms come and go, Object-Oriented is just one". This combined with a lot of hype around "Functional Programming" makes the statement of Object-Oriented Programming (OOP) dying in favor of something else, like Functional Programming (FP), seem plausible.
 
