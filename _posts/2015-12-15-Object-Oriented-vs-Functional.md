@@ -4,18 +4,18 @@ layout: default
 
 # Object Oriented vs Functional
 
-A few years ago the phrase arrived to my awareness:
-"Object-Oriented Programming is dead in favor of Functional Programming"
+A few years ago the phrase arrived to my awareness,
+"Object-Oriented Programming is dead in favor of Functional Programming".
 
 Someone had stated this to me based on various other sources of information they had inferred things from, other people repeated it, it continued on. A quick google search "Object-Oriented Programming is Dead" will reveal that this topic has quite a bit of discussion.
 
-People make very rational arguments like, "Paradigms come and go, object-oriented is just one". This combined with a lot of hype around "Functional Programming" makes the statement of Object-Oriented Programming (OOP) dying in favor of something else, like Functional Programming (FP), seem plausible.
+People make very rational arguments like, "Paradigms come and go, Object-Oriented is just one". This combined with a lot of hype around "Functional Programming" makes the statement of Object-Oriented Programming (OOP) dying in favor of something else, like Functional Programming (FP), seem plausible.
 
 People who make the priorly quoted statements, or similar to them, are confusing two things. Those two things being, OOP as a philosophical concept of how to design the architecture of software and OOP components in an implemented language.
 
 Java, C++, C#, Objective-C these are languages which have implemented in them components of OOP. They are not however the pure and authoritative representations of what OOP actually is. Rather, they are hybrid languages, they are hybrids of some OOP components and Procedural Programming. In the case of C# and Java, there are now components of FP being added to make them OOP, FP, Procedural hybrids.
 
-A language with OOP components, or specific OOP components in a language may die and be replaced with something else. However OOP as a philosophical understanding of how to create the architecture of complex systems will not die. In fact, even if you are in a purely FP language, OOP as a philosophy of architecture still applies and is the ideal perspective to take when figuring out architecture and organization.
+A language with OOP components, or specific OOP components in a language may die and be replaced with something else. However OOP as a philosophical understanding of how to create the architecture of complex systems will not die. Even if you are in a purely FP language, OOP as a philosophy of architecture still applies and is the ideal perspective to take when figuring out architecture and organization.
 
 OOP in it's most pure and original form, a philosophy of software architecture, is the result of taking the philosophical basis largely developed in the tradition of Hermeneutics and then applying it to the architecture of software and programming language design. To make code comprehensible to people, and allow code to be written in the way the human mind intuitively thinks. This perspective will always be relevant. The history and philosophy of OOP I believe is most thoroughly and properly covered in the book named 'Object Thinking' by David West. If you wish to understand better what OOP actually is, read 'Object Thinking'.
 
