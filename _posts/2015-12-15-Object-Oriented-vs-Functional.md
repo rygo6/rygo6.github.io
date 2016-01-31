@@ -11,7 +11,7 @@ Someone had stated this to me based on various other sources of information they
 
 People make very rational arguments like, "Paradigms come and go, Object-Oriented is just one". This combined with a lot of hype around "Functional Programming" makes the statement of Object-Oriented Programming (OOP) dying in favor of something else, like Functional Programming (FP), seem plausible.
 
-People who make the priorly quoted statements, or similar to them, are confusing two things. Those two things being, OOP as a philosophical concept of how to design the architecture of software and OOP components in an implemented language.
+People who make the priorly quoted statements, or similar to them, are confusing two things. Those two things being, OOP as a philosophical concept of how to design the architecture of software and OOP components implemented in a language.
 
 Java, C++, C#, Objective-C these are languages which have implemented in them components of OOP. They are not however the pure and authoritative representations of what OOP actually is. Rather, they are hybrid languages, they are hybrids of some OOP components and Procedural Programming. In the case of C# and Java, there are now components of FP being added to make them OOP, FP, Procedural hybrids.
 
