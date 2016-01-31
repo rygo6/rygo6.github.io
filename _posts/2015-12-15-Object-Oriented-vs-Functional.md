@@ -13,7 +13,7 @@ People make very rational arguments like, "Paradigms come and go, Object-Oriente
 
 People who make the priorly quoted statements, or similar to them, are confusing two things. Those two things being, OOP as a philosophical concept of how to design the architecture of software and OOP components implemented in a language.
 
-Java, C++, C#, Objective-C these are languages which have implemented in them components of OOP. They are not however the pure and authoritative representations of what OOP actually is. Rather, they are hybrid languages, they are hybrids of some OOP components and Procedural Programming. In the case of C# and Java, there are now components of FP being added to make them OOP, FP, Procedural hybrids.
+Java, C++, C#, Objective-C these are languages which have implemented in them components derived from the philosophies of OOP. They are not however the pure and authoritative representations of what OOP actually is. Rather, they are hybrid languages, they are hybrids of some OOP components and Procedural Programming. In the case of C# and Java, there are now components of FP being added to make them OOP, FP, Procedural hybrids.
 
 A language with OOP components, or specific OOP components in a language may die and be replaced with something else. However OOP as a philosophical understanding of how to create the architecture of complex systems will not die. Even if you are in a purely FP language, OOP as a philosophy of architecture still applies and is the ideal perspective to take when figuring out architecture and organization.
 
