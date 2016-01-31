@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Object Oriented vs Functional
 
 A few years ago the phrase arrived to my awareness:
