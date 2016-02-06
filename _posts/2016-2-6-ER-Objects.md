@@ -12,7 +12,7 @@ Now that I have done that, and have a codebase with nothing ending in 'er', I wo
 
 I would say about 20% of the time not using er resulted in merely a semantics change, nothing very relevant. But in most cases it caused me to rethink my architecture resulting in better architecture and easier to guess functionality.
 
-Here are a handful of er alternatives that I used:
+Here are a handful of 'er' alternatives that I used:
 
 - Timer -> Clock
 - Mover -> Engine
