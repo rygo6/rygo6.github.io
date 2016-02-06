@@ -30,9 +30,9 @@ Changing 'Listener' to 'Target' introduced I think a better description of the o
 
 Then we get to 'Manager' and 'Controller', this is where it starts to get a bit more obvious. Because I realized my 'Manager' and 'Controller' classes were doing a lot. As you can see from the names. They ended changing into a lot of different things, and a lot more objects.
 
-I realize in retrospect that most people generally use Managers or Controllers to break object-orientation. Meaning, they use them to be a container of many procedural processes that tend to have quirky, or non-obvious interrelation. That when you remove the ability to use the term 'Manager' or 'Controller', or anything ending in er, you end having to think up actually descriptive, singularly specific terms to apply to the description of objects. Which forces you to be more a aware of the purpose of each object, and thus more aware of how they relate. Resulting in better architecture.
+I realize in retrospect that most people generally use Managers or Controllers to break object-orientation. Meaning, they use them to be a container of many procedural processes that tend to have quirky, or non-obvious interrelation. That when you remove the ability to use the term 'Manager' or 'Controller', or anything ending in er, you end having to think up actually descriptive, singularly specific terms to apply to the description of objects. Which forces you to be more aware of the purpose of each object, and thus more aware of how they relate. Resulting in better architecture.
 
-One of my Controllers was storing references to other object, running them through a system, and then displaying. This got refactored into separate 'Store', 'System' and 'Display' objects. It did result in a codebase that I think would be easier for someone else to get a grasp on quickly.
+One of my Controllers was storing references to other objects, running them through a system, and then displaying something. This got refactored into separate 'Store', 'System' and 'Display' objects. It did result in a codebase that I think would be easier for someone else to get a grasp on quickly.
 
 I now interpret encountering the terms 'Manager' or 'Controller' in a codebase to generally signify the point at which the developer most likely got lazy.
 
