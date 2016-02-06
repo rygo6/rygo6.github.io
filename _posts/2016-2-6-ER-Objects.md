@@ -4,9 +4,7 @@ layout: default
 ---
 
 Where I first read this article:
-"Don't Create Objects That End With -ER"
-
-<http://www.yegor256.com/2015/03/09/objects-end-with-er.html>
+["Don't Create Objects That End With -ER"](http://www.yegor256.com/2015/03/09/objects-end-with-er.html)
 
 I thought it was a bit OCD and unnecessarily nitpicky. It basically says that any class name ending in 'er' is plain and simply wrong. But it intrigued me. So I made a point that throughout the entire codebase of partak I would not use a single object name ending in 'er'.
 
