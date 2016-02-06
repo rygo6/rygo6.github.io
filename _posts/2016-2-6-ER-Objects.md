@@ -8,7 +8,7 @@ Where I first read this article:
 
 I thought it was a bit OCD and unnecessarily nitpicky. It basically says that any class name ending in 'er' is plain and simply wrong. But it intrigued me. So I made a point that throughout the entire codebase of partak I would not use a single object name ending in 'er'.
 
-Now that I have done that, and have a codebase with nothing ending in 'er', I would have to say this is very valuable to do. If you want to improve your skill in architecture and intuition in naming I think you should try to force yourself to do an entire project not ending any object names in er.
+Now that I have done that, and have a codebase with nothing ending in 'er', I would have to say this is very valuable to do. If you want to improve your skill in architecture and intuition in naming I think you should try to force yourself to do an entire project not ending any object names in 'er'.
 
 I would say about 20% of the time not using er resulted in merely a semantics change, nothing very relevant. But in most cases it caused me to rethink my architecture resulting in better architecture and easier to guess functionality.
 
