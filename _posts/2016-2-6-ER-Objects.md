@@ -3,6 +3,8 @@ title: ER Objects
 layout: default
 ---
 
+#ER Objects
+
 When I first read this article:
 ["Don't Create Objects That End With -ER"](http://www.yegor256.com/2015/03/09/objects-end-with-er.html)
 

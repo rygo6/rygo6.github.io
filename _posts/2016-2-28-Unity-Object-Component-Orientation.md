@@ -1,7 +1,9 @@
 ---
-title: Unity Object Component Orientation.
+title: Unity Object Component Orientation
 layout: default
 ---
+
+# Unity Object Component Orientation
 
 Typically each separate class in C# denotes itself as being a separate Object. Thus for each class, one should expect the class to be following the principles of being an Object. However in Unity I would contend that there are actually two different domains which a class can represent. Those are an Object, and a Component.
 
