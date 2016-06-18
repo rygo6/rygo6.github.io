@@ -36,8 +36,6 @@ I realize in retrospect that most people generally use Managers or Controllers t
 
 One of my Controllers was storing references to other objects, running them through a system, and then displaying something. This got refactored into separate 'Store', 'System' and 'Display' objects. It did result in a codebase that I think would be easier for someone else to get a grasp on quickly.
 
-I now interpret encountering the terms 'Manager' or 'Controller' in a codebase to generally signify the point at which the developer most likely got lazy.
-
 Unity uses the term 'Manager' for it's objects which hold configuration settings. 'InputManager', 'QualityManager', 'PhysicsManager' etc. In this case the Managers are really being used as a store for settings. They probably would be better off named 'InputConfig', 'QualityConfig' and 'PhysicsConfig'.
 
-I really cannot think of instance thus far where there is not a better alternative, or at least equally as good an alternative to a name ending in 'er'. I would be very curious to hear about a case where an 'er' name was most certainly the best choice and what your reasoning was. Because so far it seems to be very good advice to not name any object ending in 'er'.
+I do think that the terms Controller or Manager are perfectly descriptive terms for some objects. The blanket statement of never using those names, nor any name ending in -er may be a bit excessive. But I think the notion does hold merit as an exercise to make you question whether or not your -er object is actually an object, or is it a procedural program in a class that break object-orientation?
