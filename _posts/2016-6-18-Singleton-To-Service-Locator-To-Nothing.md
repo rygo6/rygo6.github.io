@@ -3,6 +3,8 @@ title: Singleton to Service Locator to Dependency Injection to Nothing.
 layout: default
 ---
 
+# Singleton to Service Locator to Dependency Injection to Nothing.
+
 I find that people use the singleton pattern in unity heavily. I did this as well in the beginning. Singletons are simple, easy to access and easy to create. I do however think they promote bad architecture as your project grows, and you also run into problematic areas with them. This only became apparent to me once I began to work on projects with considerably large codebases.
 
 I was working on one project that was fast approaching over 40 Singleton Manager classes. The project had in it defined the notion of a Singleton Manager as a central access point, and everyone else followed this notion. The problem with this however, and those 40+ Singleton Managers, is that the roles of those objects were really not the best suited to being a Singleton, nor a Manager.
