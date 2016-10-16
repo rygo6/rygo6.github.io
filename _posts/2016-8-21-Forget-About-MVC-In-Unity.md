@@ -1,5 +1,5 @@
 ---
-title: Forget about MVC in Unity.
+title: Forget about MVC in Unity
 layout: default
 ---
 
