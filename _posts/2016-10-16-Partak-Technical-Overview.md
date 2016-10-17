@@ -5,9 +5,9 @@ layout: default
 
 # Partak Technical Overview
 
-My personal game  I call 'partak', shortened version of 'particle attack', is one my favorite projects. It is a remake of an old game that came from the open source community in the mid 90's called 'Liquid War'. The game 'Liquid Wars' I thought was a brilliant gameplay mechanic, on par with any of the classic games such as Tetris, or Pac-Man. But for some reason it never achieved comparable notoriety. To date, I believe partak is still the only 'Liquid Wars' clone anyone has made. I suspect part of the reason for this is because it's gameplay mechanic is quite a bit more difficult to implement than other classics.
+My personal game named 'partak', condensed from 'particle attack', is one my favorite projects. It is a remake of an old game that came from the open source community in the mid 90's called 'Liquid Wars'. The game 'Liquid Wars' I thought was a brilliant gameplay mechanic, on par with any of the classic games such as Tetris, or Pac-Man. But for some reason it never achieved comparable notoriety. To date, I believe partak is still the only 'Liquid Wars' clone anyone has made. I suspect part of the reason for this is because it's gameplay mechanic is quite a bit more difficult to implement than other classics.
 
-Me being a fan of 'Liquid Wars' and also being a fan of difficult algorithms, and wanting to see this game live on in the mobile world is what inspired me to create it.
+Me being a fan of 'Liquid Wars' and also being a fan of difficult algorithms, and wanting to see this game live on in the mobile world is what inspired me to create 'partak'.
 
 The algorithm underlying 'partak' is a quad-tree optimized implementation of the Dijkstra's algorithm. This is a very old, and simple, path finding algorithm. However despite it being so old, it still offers some unique advantages over modern path finding system. The primary benefit being that it can path find 5000+ particles at a sustained frame rate to a single point on iPad 2 level hardware.
 
