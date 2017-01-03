@@ -1,6 +1,7 @@
 ---
 title: Partak Technical Overview
 layout: default
+comments: true
 ---
 
 # Partak Technical Overview

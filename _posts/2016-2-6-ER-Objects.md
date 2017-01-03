@@ -1,6 +1,7 @@
 ---
 title: ER Objects
 layout: default
+comments: true
 ---
 
 # ER Objects

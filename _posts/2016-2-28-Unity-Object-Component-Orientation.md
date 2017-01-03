@@ -1,6 +1,7 @@
 ---
 title: Unity Object Component Orientation
 layout: default
+comments: true
 ---
 
 # Unity Object Component Orientation

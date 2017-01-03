@@ -1,6 +1,7 @@
 ---
 title: Singleton to Service Locator to Dependency Injection to Nothing
 layout: default
+comments: true
 ---
 
 # Singleton to Service Locator to Dependency Injection to Nothing.

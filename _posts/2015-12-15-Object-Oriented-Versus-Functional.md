@@ -1,6 +1,7 @@
 ---
 title: Object Oriented Versus Functional
 layout: default
+comments: true
 ---
 
 # Object Oriented Versus Functional
