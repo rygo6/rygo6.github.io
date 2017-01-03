@@ -1,7 +1,6 @@
 ---
 title: Forget about MVC in Unity
 layout: default
-comments: true
 ---
 
 # Forget about MVC in Unity.
