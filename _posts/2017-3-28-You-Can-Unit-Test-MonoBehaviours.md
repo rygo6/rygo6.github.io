@@ -38,7 +38,7 @@ If you were to follow the Humble Object Pattern you would end up with twice as m
 
 The Humble Object Pattern at this point in time is a bad idea.
 
-People who have contrived MVC to be the Humble Object Pattern, such as [this person](http://jacksondunstan.com/articles/3092), I also think that is a bad idea at this point in time. I also think contorting MVC to fit Unity is a further bad idea for [this reason](http://rygo6.github.io/2017/03/26/ECS-not-MVC.html) and [this reason](http://rygo6.github.io/2016/08/21/Forget-About-MVC-In-Unity.html).
+People who have contrived MVC to be the Humble Object Pattern, such as [this person](http://jacksondunstan.com/articles/3092), that too I think is a bad idea. I think contorting MVC to fit Unity is a further bad idea for [this reason](http://rygo6.github.io/2017/03/26/ECS-not-MVC.html) and [this reason](http://rygo6.github.io/2016/08/21/Forget-About-MVC-In-Unity.html).
 
 At this point you may be wondering, what about the Awake, Start and Update methods? You could make them public and call them that way. However, I think Unity has already done abnormal things in this department by making the Unity C++ layer call the private Awake, Start and Update methods. So I consider the MonoBehaviour an unique beast onto which unique solutions are appropriate. It also makes sense from an encapsulation perspective to keep these methods private.
 
