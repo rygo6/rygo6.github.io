@@ -28,4 +28,4 @@ Interview, a lot. Any chance you get to interview, take it, and do the interview
 
 Lastly, the best part about tech work, is it's probably the easiest profession to create your own independent income streams in. So don't focus entirely on getting hired somewhere, always allocate a certain percentage of your energy to growing your own business efforts.
 
-I really do believe that anyone who wants to could radically improve their life purely thought the internet and self-direction. I personally want to die in a world where that is the only requirement to thrive in this world. So if you have any slight opening to walk that path yourself, you should, not just for you, but for all future generations.
+I really do believe that anyone who wants to could radically improve their life purely through the internet and self-direction. I personally want to die in a world where that is the only requirement to thrive in this world. So if you have any slight opening to walk that path yourself, you should, not just for you, but for all future generations.
