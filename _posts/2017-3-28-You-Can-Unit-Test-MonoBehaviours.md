@@ -27,3 +27,9 @@ My solution was to write an Utility class to call Awake, Start and Update throug
 You want to make sure you call these methods in the proper order of Awake, Start and Update. You can see the full order of events [here](https://docs.unity3d.com/Manual/ExecutionOrder.html). You also want to make sure you don't call anything more than necessary for the unit test. If your unit test only requires Awake to be called, only call that. If it requires none to be called, then don't call any.
 
 This isn't to say don't separate your logic out into other classes and compose them in your MonoBehaviour. Certainly that is entirely appropriate and ideal in many cases, separate your logic out to as many classes as is good for design. Just that, if your only reason to do so is to unit test that class, and you are essentially creating a dummy MonoBehaviour to hold the class, don't. Test the MonoBehaviour directly.
+
+###### *Update March - 30 - 2018*
+
+I have discovered that the team at Microsoft doing the Unity SDK for Windows MR has devised the same solution as myself when unit testing MonoBehaviours. That being, in an UnitTest you create a new GameObject, add components, then call Awake, Start, Update through reflection.
+
+Take a look at their github repo [here](https://github.com/Microsoft/MixedRealityToolkit-Unity/tree/master/Assets/HoloToolkit-UnitTests) to learn more:
