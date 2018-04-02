@@ -30,6 +30,4 @@ This isn't to say don't separate your logic out into other classes and compose t
 
 ###### *Update March - 30 - 2018*
 
-I have discovered that the team at Microsoft doing the Unity SDK for Windows MR has devised the same solution as myself when unit testing MonoBehaviours. That being, in an UnitTest you create a new GameObject, add components, then call Awake, Start, Update through reflection.
-
-Take a look at their github repo [here](https://github.com/Microsoft/MixedRealityToolkit-Unity/tree/master/Assets/HoloToolkit-UnitTests) to learn more:
+I have discovered that the team at Microsoft doing the Unity SDK for Windows MR has devised the same solution as myself when unit testing MonoBehaviours. That being, in an UnitTest you create a new GameObject, add components, then call Awake, Start, Update through reflection. Take a look at their github repo [here](https://github.com/Microsoft/MixedRealityToolkit-Unity/tree/master/Assets/HoloToolkit-UnitTests) to learn more.
