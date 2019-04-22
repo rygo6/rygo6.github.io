@@ -9,7 +9,7 @@ comments: true
 Below is a description of the type of folder structure I use for Unity projects.
 
 ##### Asset Type Folders
-Generic, repeated, folder names for each type of asset.
+You will see me refer to ``*Asset Type Folders*`` multiple times below. These are generic, repeated, folder names for each type of base asset.
 
 ```
 *Asset Type Folders*
