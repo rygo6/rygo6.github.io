@@ -2,15 +2,16 @@
 title: Missing The Problem Domain (Issues with Test Driven Development)
 layout: default
 comments: true
+published: false
 ---
 
 # Missing The Problem Domain (Issues with Test Driven Development)
 
-Discourse in software development and programming I believe has long suffered from an issue of not being aware of the problem domain one is talking about. To often I see the presumption that, if you are writing code then you are simply writing code, nothing more. Graphics code for a game, backend code for a REST API, or code for any other problem domain all get condensed together into one category in people's minds. Then when someone comes up with some novel theory or perspective of development suited to one particular problem domain, it is presumed to be universal. When rarely is that the case. For example, the type of mentality and perspective you'd have when writing graphics code to be as efficient as possible in a resource constrained envrionment is not the mentality you'd have when writing code to route HTTP requests. This can go multiple ways, as there are dozens of problems domains in software.
+Discourse in software development and programming I believe has long suffered from an issue of not being aware of the problem domain one is talking about. Too often I see the presumption that if you are writing code then you are simply writing code, nothing more. Graphics code for a game, backend code for a REST API, or code for any other problem domain all get condensed together into one category in people's minds. Then when someone comes up with some novel theory or perspective of development suited to one particular problem domain, it is presumed to be universal. When rarely is that the case. For example, the type of mentality and perspective you'd have when writing graphics code to be as efficient as possible in a resource constrained envrionment is not the mentality you'd have when writing code to route HTTP requests on large fast servers.
 
-Often the contention arises between low-level code, higher-level user space application code, and backend code, but within each of these are even more subcategories of distinct problems domains.
+I see contention arise between low-level code, higher-level user space application code, and backend code, but within each of those are even more subcategories of distinct problems domains.
 
-In recent times I have seen confusion stem from people trying to naively apply mentalities from backend enterprise development to lower-level client code. 
+In recent times I have seen confusion stem from people trying to naively apply mentalities from backend enterprise development to performance-oriented client code. 
 
 One prominent example that comes to my mind is the subject of SOLID in Unity mobile games. SOLID being something birthed out of the backend enterprise crowd as a highly opiniated approach to architecture that tends to add many layers of abstraction and overhead for the principles it espouses. That can turn into an issue when your problem domain does not rest on high-grade servers with liberal operating budgets, but is instead a mid-spec mobile phone trying run a realtime 3D game. This has led to multiple variations of 'Dependency Injecton Frameworks' that rely on slow features such a Reflection that can add inhibiting overhead to simple operations like object instation. All done in the name of the 'Dependency Inversion Principle', which is Okay in problem domains where you aren't in such a resource constrained environment, but not so much on a mobile device trying to run realtime 3D game. If you are writing C# to run high-performance, and real-time, on a mobile device you generally need to become highly pedantic about performance. Preferring approaches that are dead simple with the least amount of overhead possible. Like a singleton. 
 
