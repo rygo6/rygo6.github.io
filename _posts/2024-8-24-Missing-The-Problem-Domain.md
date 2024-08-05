@@ -2,7 +2,6 @@
 title: Missing The Problem Domain (Issues with Test Driven Development)
 layout: default
 comments: true
-published: true
 ---
 
 # Missing The Problem Domain (Issues with Test Driven Development)
