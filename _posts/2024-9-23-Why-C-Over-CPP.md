@@ -19,6 +19,8 @@ However when it comes to graphics programming, particularly Vulkan, or OpenGL, t
 
 Generally my conclusion was 'No'.
 
+## C-Like C++ vs C.
+
 There is a whole other subject to be written about the issues Object-Orientation, particularly when it comes to Vulkan and low level programming. So most any C++ feature related to that I just omit, and am comparing C to a C-like C++.
 
 In comparisong to C, when I thought about it, the only thing I'd really miss from C-like C++ were:
